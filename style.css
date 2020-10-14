@@ -7,3 +7,55 @@
     font-size: 100%;
     box-sizing: border-box;
 }
+
+.center {
+    margin: auto;
+    width: 100%;
+}
+
+.container {
+    padding: 0 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#team-section h1 {
+    border-bottom: 2px solid blue;
+    text-align: center;
+    width: 230px;
+}
+
+.team-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 0 0;
+    width: 640px;
+}
+.team {
+    background-color: red;
+    margin-right: 29px;
+    padding-left: 27px;
+    padding-top: 23px;
+    margin-bottom: 24px;
+    height: 231px;
+    width: 170px;
+    transition: 0.3s;
+}
+
+.team:hover {
+    margin-top: -15px;
+}
+
+.team img {
+    width: 60px;
+    height: 60px;
+}
+
+.btn-pesan {
+    width: 230px;
+    height: 40px;
+}
