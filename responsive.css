@@ -1,7 +1,12 @@
 /* Untuk Tablet */
 
 @media all and (max-width: 1000px) {
-
+    .top-wrapper {
+        width: 100%;
+    }
+    p.text-content {
+        font-size: 18px !important; 
+    }
 }
 
 /* Untuk Smartphone */
