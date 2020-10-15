@@ -8,6 +8,78 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 80px;
+    background-color:rgb(19, 134, 187);
+    color:white;
+    
+  }
+  .header-button a {
+    color: white;
+    
+  
+  }
+  .header-left {
+    padding-top: 0.05px;
+    padding-left: 20px;
+    font-size: 25px;
+    float:left;
+    font-weight: bold
+    
+  }
+  .header-wrapper {
+      align-items: center;
+  }
+   a {
+    float: right;
+    font-size: 17px;
+    padding-right: 25px;
+    display: block;
+    line-height: 80px;
+    text-decoration: none;
+    
+   }
+  
+   .blog {
+     margin-right: 30px;
+     background-color:rgba(135, 206, 235, 0.8);
+     padding-left: 25px;
+     
+   }
+   .forum {
+     background-color: rgba(255, 160, 122, 0.8);
+     padding-left: 25px;
+     
+   }
+   .e-commerce {
+     background-color:rgba(144, 238, 144, 0.8);
+     padding-left: 25px;
+     
+   }
+   .e-learning {
+     background-color: rgba(176, 196, 222, 0.8);
+     padding-left: 25px;
+     
+   }
+   .forum:hover {
+     background-color: rgba(255, 160, 122, 1) ;
+   }
+   .e-commerce:hover {
+     background-color: rgba(144, 238, 144, 1);
+   }
+   .e-learning:hover {
+     background-color: rgba(176, 196, 222, 1);
+  
+   }
+   .blog:hover {
+     background-color:rgba(135, 206, 235, 1);
+   }
+   .header-button {
+     transition: all 1s;
+   }
+   
+
+
 .center {
     margin: auto;
     width: 100%;
