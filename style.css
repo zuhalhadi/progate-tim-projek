@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+body { 
+  font-family: "Lucida Grande";
+}
+
 header {
     height: 80px;
     background-color:rgb(19, 134, 187);
@@ -130,4 +134,61 @@ header {
 .btn-pesan {
     width: 230px;
     height: 40px;
+}
+
+.testi-container {
+  height:600;
+}
+
+.heading {
+  text-align:center;
+  padding-top:50px;
+  color:black;
+}
+
+.testimonie {
+  width:50%;
+  float:left;
+  color:black;
+}
+
+
+.testi-icon img {
+  padding-top:60px;
+  width:400px;
+
+
+}
+
+.testi-icon {
+  padding-left:20px;
+  position:relative;
+}
+
+.testi-icon p {
+  letter-spacing:1px;
+  font-family:fantasy;
+  color:rgb(75,155,178,0.7);
+  padding-top:50px;
+  top:0.5px;
+  padding-left:65px;
+  position:absolute;
+  font-size:20px;
+
+
+}
+
+.txt-contents {
+  padding-left:10px;
+  width:80%;
+  font-size:26px;
+  text-align: justify;
+}
+
+.testi-wrapper {
+
+  height:1300px;
+  background-size: cover;
+  color: white;
+  background-image:url(https://i.ibb.co/VwCnyFc/Design-Challenge-Blue-Gradient-Technology-Wide-Presentation-2.png);
 }
