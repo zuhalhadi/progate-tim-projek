@@ -11,5 +11,7 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-
+    p.text-content {
+        font-size: 14px !important; 
+    }
 }
