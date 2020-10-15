@@ -16,7 +16,9 @@ header {
     height: 80px;
     background-color:rgb(19, 134, 187);
     color:white;
-    
+    width: 100%;
+    position: fixed;
+    z-index: 99;
   }
   .header-button a {
     color: white;
@@ -33,6 +35,8 @@ header {
   }
   .header-wrapper {
       align-items: center;
+      width: 100%;
+      /* position: fixed; */
   }
    a {
     float: right;
@@ -96,6 +100,11 @@ header {
     justify-content: center;
     align-items: center;
     height: 100vh;
+}
+
+
+#team-section {
+  margin-top: 25px;
 }
 
 #team-section h1 {
@@ -191,4 +200,32 @@ header {
   background-size: cover;
   color: white;
   background-image:url(https://i.ibb.co/VwCnyFc/Design-Challenge-Blue-Gradient-Technology-Wide-Presentation-2.png);
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 90vh;
+}
+
+.top-wrapper h1 {
+	font-size: 45px;
+	letter-spacing: 5px;
+}
+
+.top-wrapper .hero {
+  margin-bottom: 200px;
+}
+
+.btn-pesan-hero {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #239b76
 }
