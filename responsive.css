@@ -1,70 +1,70 @@
 /* Untuk Tablet */
-
-@media (max-width: 1000px) {
-    .top-wrapper {
-        width: 100%;
-    }
-    
-    .testi-wrapper {
-      
-    }
-    
-    .text-content {
-        font-size: 18px ; 
-    }
-    .center-team-wrapper{
-      width:50%;
-      
-    }
-    .header-right {
-    display:none;
-    
-    margin-bottom:50px;
-    }
-}
-
-/* Untuk Smartphone */ 
-@media (max-width:670px) {
+@media all and (max-width: 1000px) {
   
-  .center-team-wrapper {
-    width:25%;
-    padding-top:500px;
-  }
   
-  .container {
-    margin:100px;
-  }
-  
-  .team img {
-    width:100%;
+  .header-left {
+    width:50%;
     
   }
-  .testi-icon img {
-    width:100%;
-   
-  }
-  
-  .txt-contents {
-    font-size:15px;
-  }
-  
   .header-right {
-    display:none;
-  }
-    
-  .testi-wrapper {
-    padding-top:500px;
-  }
-  
-  .testi-icon p {
-    float:left;
-    font-size:10px;
-    line-height:10px;
-  }
-  
-  .team {
-    display:block;
     width:100%;
+  }
+  
+  .testi-icon img {
+    padding-top:100px;
+    width:75%;
+  }
+  .btn-pesan {
+    margin-bottom:30px;
   }
 }
 
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .center-team-wrapper {
+     box-sizing: border-box;
+     
+    }
+    
+   .btn-pesan-hero {
+     display:none;
+   }
+  .testi-icon p {
+      float:left;
+      padding-left:5px;
+      margin-bottom:40px;
+      font-size:10px;
+      text-align:left;
+    }
+    
+    .txt-contents {
+      font-size:13px;
+    }
+    
+   .testi-icon img {
+     padding-top:80px;
+     margin-bottom:10px;
+     width:75%;
+   } 
+    
+  .header-right {
+    display: none;
+    width:25%;
+    
+  }
+  .header-left {
+    width:25%;
+  }
+  
+ .menu-icon {
+    display:block;
+  }
+  
+  .btn-pesan {
+    margin-bottom:30px;
+  }
+  
+  .footer {
+    padding-bottom:150px;
+  }
+}
