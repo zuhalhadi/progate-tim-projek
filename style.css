@@ -10,19 +10,17 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video 
+
+{
 	margin: 0;
 	padding: 0;
-	border: 0;
+  border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
     box-sizing: border-box;
 }
 
@@ -131,7 +129,7 @@ header {
     width: 230px;
 }
 
-.team-wrapper {
+.center-team-wrapper {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -139,7 +137,7 @@ header {
     width: 640px;
 }
 .team {
-    background-color: red;
+    background-color: green;
     margin-right: 29px;
     padding-left: 27px;
     padding-top: 23px;
@@ -164,7 +162,7 @@ header {
 }
 
 .testi-container {
-  height:600;
+  height:600px;
 }
 
 .heading {
@@ -256,7 +254,7 @@ header {
 
 .footer {
 	background-color: #00FFFF;
-	height: 120px
+	height: 120px;
 	color: #fff;
 	padding: 90px;
 	width: 100%;
@@ -272,4 +270,16 @@ header {
 	padding: 30px 50px;
 	float: right;
 	list-style-type: none;
+}
+
+.clear {
+  clear:left ;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  
 }
