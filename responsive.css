@@ -1,70 +1,61 @@
 /* Untuk Tablet */
-
-@media (max-width: 1000px) {
-    .top-wrapper {
-        width: 100%;
-    }
-    
-    .testi-wrapper {
-      
-    }
-    
-    .text-content {
-        font-size: 18px ; 
-    }
-    .center-team-wrapper{
-      width:50%;
-      
-    }
-    .header-right {
-    display:none;
-    
-    margin-bottom:50px;
-    }
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
 }
 
-/* Untuk Smartphone */ 
-@media (max-width:670px) {
-  
-  .center-team-wrapper {
-    width:25%;
-    padding-top:500px;
-  }
-  
-  .container {
-    margin:100px;
-  }
-  
-  .team img {
-    width:100%;
-    
-  }
-  .testi-icon img {
-    width:100%;
-   
-  }
-  
-  .txt-contents {
-    font-size:15px;
-  }
-  
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
   .header-right {
     display:none;
   }
-    
-  .testi-wrapper {
-    padding-top:500px;
-  }
   
-  .testi-icon p {
-    float:left;
-    font-size:10px;
-    line-height:10px;
-  }
-  
-  .team {
+  .menu-icon {
     display:block;
-    width:100%;
+  }
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  
+  
+  /* Tambahkan CSS untuk menu-icon */
+  
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
-
